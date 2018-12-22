@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class Functions {
 
+    // Returns true if both arrays are equal
     public static boolean arraysAreEqual(int[] array, int[] array2){
         boolean isEqualLength = array.length == array2.length;
 
@@ -20,6 +21,7 @@ public class Functions {
         return true;
     }
 
+    // Converts Array Integer to String without space, comma, and brackets
     public static String arrayIntToString(int[] array){
         Scanner sc = new Scanner(Arrays.toString(array)).useDelimiter("\\D");
         String str = "";

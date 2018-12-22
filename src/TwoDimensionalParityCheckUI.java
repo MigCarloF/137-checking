@@ -8,6 +8,6 @@ public class TwoDimensionalParityCheckUI {
     }
 
     private void prompt(){
-        System.out.println("");
+        System.out.println("-Input in Binary");
     }
 }

@@ -22,6 +22,7 @@ public class SimpleParityCheckUI {
         int[] inputA = getInput();
         System.out.print("Input B: ");
         int[] inputB = getInput();
+
         System.out.println("@Sender");
         System.out.print("Codeword: ");
         int[] inputA_parity = parityCheck.assignParityBit(inputA);
@@ -41,6 +42,7 @@ public class SimpleParityCheckUI {
         char[] charInput;
         int[] input;
 
+        // Loops  until input is valid
         do {
             String strInput = sc.next();
             charInput = strInput.toCharArray();
@@ -60,7 +62,4 @@ public class SimpleParityCheckUI {
         }
         return true;
     }
-
-
-
 }
